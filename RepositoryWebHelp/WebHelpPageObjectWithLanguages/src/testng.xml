@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebHelpSuite" verbose="1">
+  <test name="CheckWebHelp" group-by-instances="true"  >
+    <packages>
+    <!--<package name="RapidRecovery.com.wizards" />-->
+        <!--<package name="RapidRecovery.com.tabs" />-->
+   </packages>
+      <classes>
+          <class name="RapidRecovery.com.LanguageFactory"></class>
+      </classes>
+ </test>
+    <listeners>
+        <listener class-name="RapidRecovery.com.util.TestListener"/>
+    </listeners>
+</suite>
